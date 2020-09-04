@@ -1,0 +1,59 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  background-color: rgb(135, 206, 250);
+  background-image: url(https://img.icons8.com/cotton/2x/star.png);
+  background-repeat: repeat-x repeat-y;
+}
+
+.header {
+  background-color: pink;
+  width: 850px;
+  height: 350px;
+  border: white 8px dashed;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.profile_picture {
+  background-color: rgb(128, 247, 188);
+  width: 170px;
+  height: 170px;
+  border: white 5px dashed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 225px;
+  left: 55px;
+}
+
+.page_name {
+  text-align: left;
+  position: absolute;
+  left: 240px;
+  top: 264px;
+}
+
+li {
+  display: inline;
+}
+
+.buttons {
+  background-color: white;
+}
+
+/* footer {
+  text-align: center;
+  background-color: rgb(128, 247, 188);
+  width: 850px;
+  height: 70px;
+  border: white 5px dashed;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+} */
