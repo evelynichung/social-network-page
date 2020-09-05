@@ -15,10 +15,11 @@ body {
 .header {
   background-color: pink;
   width: 850px;
-  height: 350px;
+  height: 345px;
   border: white 8px dashed;
   background-repeat: no-repeat;
   margin: auto;
+  z-index: 0;
 }
 
 .profile_picture {
@@ -31,6 +32,7 @@ body {
   position: absolute;
   top: 225px;
   left: 55px;
+  z-index: 2;
 }
 
 .page_name {
@@ -38,6 +40,7 @@ body {
   position: absolute;
   left: 240px;
   top: 264px;
+  z-index: 3;
 }
 
 li {
@@ -45,10 +48,130 @@ li {
 }
 
 .buttons {
-  background-color: white;
+  position: absolute;
+  top: 240px;
+  left: 555px;
 }
 
-/* footer {
+span {
+  line-height: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+  /* font-weight: semibold; */
+}
+
+#button1 {
+  border: rgb(135, 206, 250) solid 2px;
+  width: 150px;
+  height: 50px;
+  background: #fffdfd;
+  margin-bottom: 25px;
+  border-radius: 32px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#button2 {
+  border: rgb(135, 206, 250) solid 2px;
+  width: 150px;
+  height: 50px;
+  background: #fffdfd;
+  margin-bottom: 25px;
+  border-radius: 32px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#button3 {
+  border: rgb(135, 206, 250) solid 2px;
+  width: 150px;
+  height: 50px;
+  background: #fffdfd;
+  margin-bottom: 25px;
+  border-radius: 32px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#button4 {
+  border: rgb(135, 206, 250) solid 2px;
+  width: 150px;
+  height: 50px;
+  background: #fffdfd;
+  margin-bottom: 25px;
+  border-radius: 32px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.navigation_bar {
+  background-color: white;
+  border: rgb(253, 253, 175) dashed 5px;
+  width: 835px;
+  height: 45px;
+  top: 330px;
+  position: absolute;
+  z-index: 1;
+}
+
+#link1 {
+  position: absolute;
+  top: -32px;
+  left: 373px;
+  /* cursor: pointer; */
+}
+
+#link2 {
+  position: absolute;
+  top: -32px;
+  left: 477px;
+  /* cursor: pointer; */
+}
+
+#link3 {
+  position: absolute;
+  top: -32px;
+  left: 565px;
+  /* cursor: pointer; */
+}
+
+#link4 {
+  position: absolute;
+  top: -32px;
+  left: 673px;
+  /* cursor: pointer; */
+}
+
+#link5 {
+  position: absolute;
+  top: -32px;
+  left: 750px;
+  /* cursor: pointer; */
+}
+
+.left_column {
+  background-color: rgb(253, 253, 175);
+  width: 328px;
+  height: 1100px;
+  top: 430px;
+  left: 526px;
+  position: absolute;
+}
+
+.right_column {
+  background-color: rgb(253, 253, 175);
+  width: 512px;
+  height: 1200px;
+  top: 400px;
+  left: 870px;
+  position: absolute;
+}
+
+footer {
   text-align: center;
   background-color: rgb(128, 247, 188);
   width: 850px;
@@ -56,4 +179,5 @@ li {
   border: white 5px dashed;
   background-repeat: no-repeat;
   margin: 0 auto;
-} */
+  bottom: -1200px;
+}
