@@ -6,11 +6,15 @@
   position: relative;
 }
 
+/* Background */
+
 body {
   background-color: rgb(135, 206, 250);
   background-image: url(https://img.icons8.com/cotton/2x/star.png);
   background-repeat: repeat-x repeat-y;
 }
+
+/* Header: Cover Photo, Profile Picture, Navigation Bar, and Buttons */
 
 .header {
   background-color: pink;
@@ -57,7 +61,6 @@ span {
   line-height: 100px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 16px;
-  /* font-weight: semibold; */
 }
 
 #button1 {
@@ -153,6 +156,8 @@ span {
   /* cursor: pointer; */
 }
 
+/* Left Column: About Me, Page Details, Apps, and Photos */
+
 .left_column {
   background-color: rgb(253, 253, 175);
   width: 328px;
@@ -162,6 +167,52 @@ span {
   position: absolute;
 }
 
+.about_me {
+  background-color: white;
+  width: 300px;
+  height: 220px;
+  top: 10px;
+  left: 14px;
+  border: 5px dashed rgb(135, 206, 250);
+  padding: 20px;
+  z-index: 4;
+}
+
+.page_details {
+  background-color: white;
+  width: 300px;
+  height: 180px;
+  top: 30px;
+  left: 14px;
+  border: 5px dashed rgb(135, 206, 250);
+  padding: 20px;
+  z-index: 5;
+}
+
+.apps {
+  background-color: white;
+  width: 300px;
+  height: 180px;
+  top: 60px;
+  left: 14px;
+  border: 5px dashed rgb(135, 206, 250);
+  padding: 20px;
+  z-index: 6;
+}
+
+.photos {
+  background-color: white;
+  width: 300px;
+  height: 180px;
+  top: 100px;
+  left: 14px;
+  border: 5px dashed rgb(135, 206, 250);
+  padding: 20px;
+  z-index: 4;
+}
+
+/* Right Column: Posts */
+
 .right_column {
   background-color: rgb(253, 253, 175);
   width: 512px;
@@ -170,6 +221,8 @@ span {
   left: 870px;
   position: absolute;
 }
+
+/* Footer */
 
 footer {
   text-align: center;
