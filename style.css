@@ -54,7 +54,7 @@ li {
 .buttons {
   position: absolute;
   top: 240px;
-  left: 555px;
+  left: 535px;
 }
 
 span {
@@ -156,15 +156,21 @@ span {
   /* cursor: pointer; */
 }
 
+/* Body: Left Column & Right Column */
+
+.body {
+  width: 850px;
+  margin: auto;
+}
+
 /* Left Column: About Me, Page Details, Apps, and Photos */
 
 .left_column {
   background-color: rgb(253, 253, 175);
   width: 328px;
-  height: 1100px;
-  top: 430px;
-  left: 526px;
-  position: absolute;
+  height: 1300px;
+  top: 80px;
+  z-index: 3;
 }
 
 .about_me {
@@ -192,8 +198,8 @@ span {
 .apps {
   background-color: white;
   width: 300px;
-  height: 180px;
-  top: 60px;
+  height: 380px;
+  top: 50px;
   left: 14px;
   border: 5px dashed rgb(135, 206, 250);
   padding: 20px;
@@ -203,12 +209,140 @@ span {
 .photos {
   background-color: white;
   width: 300px;
-  height: 180px;
-  top: 100px;
-  left: 14px;
+  height: 400px;
+  top: 5px;
+  left: -25px;
   border: 5px dashed rgb(135, 206, 250);
   padding: 20px;
   z-index: 4;
+}
+
+/* Photos: Row 1 */
+
+.photo_row_1 {
+  background-color: rgb(128, 247, 188);
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  left: 78px;
+}
+
+.photo_row_1::before {
+  background-color: rgb(128, 247, 188);
+  content: " ";
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  top: -10px;
+  left: -90px;
+  position: absolute;
+}
+
+.photo_row_1::after {
+  background-color: rgb(128, 247, 188);
+  content: " ";
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  top: -10px;
+  left: 70px;
+  position: absolute;
+}
+
+/* Photos: Row 2 */
+
+.photo_row_2 {
+  background-color: rgb(128, 247, 188);
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  left: 78px;
+}
+
+.photo_row_2::before {
+  background-color: rgb(128, 247, 188);
+  content: " ";
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  top: -10px;
+  left: -90px;
+  position: absolute;
+}
+
+.photo_row_2::after {
+  background-color: rgb(128, 247, 188);
+  content: " ";
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  top: -10px;
+  left: 70px;
+  position: absolute;
+}
+
+/* Photos: Row 3 */
+
+.photo_row_3 {
+  background-color: rgb(128, 247, 188);
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  left: 78px;
+}
+
+.photo_row_3::before {
+  background-color: rgb(128, 247, 188);
+  content: " ";
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  top: -10px;
+  left: -90px;
+  position: absolute;
+}
+
+.photo_row_3::after {
+  background-color: rgb(128, 247, 188);
+  content: " ";
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  top: -10px;
+  left: 70px;
+  position: absolute;
+}
+
+/* Photos: Row 3 */
+
+.photo_row_4 {
+  background-color: rgb(128, 247, 188);
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  left: 78px;
+}
+
+.photo_row_4::before {
+  background-color: rgb(128, 247, 188);
+  content: " ";
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  top: -10px;
+  left: -90px;
+  position: absolute;
+}
+
+.photo_row_4::after {
+  background-color: rgb(128, 247, 188);
+  content: " ";
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  top: -10px;
+  left: 70px;
+  position: absolute;
 }
 
 /* Right Column: Posts */
@@ -216,10 +350,135 @@ span {
 .right_column {
   background-color: rgb(253, 253, 175);
   width: 512px;
-  height: 1130px;
-  top: 400px;
-  left: 870px;
-  position: absolute;
+  height: 1325px;
+  top: -765px;
+  left: 300px;
+  z-index: 3;
+}
+
+/* Post: Cover Photo */
+.post_cover_photo {
+  background-color: white;
+  width: 482px;
+  height: 380px;
+  top: 10px;
+  left: 15px;
+  border: 5px dashed rgb(135, 206, 250);
+  padding: 10px;
+  z-index: 6;
+}
+
+.post_header_1 {
+  left: -45px;
+}
+
+.post_photo_1 {
+  background-color: rgb(128, 247, 188);
+  height: 220px;
+  width: 450px;
+  top: -35px;
+}
+
+.post_selections_1 {
+  top: -20px;
+  left: 20px;
+}
+
+/* Post: Text Entry 1 */
+
+.post_text_1 {
+  background-color: white;
+  width: 482px;
+  height: 200px;
+  top: 30px;
+  left: 15px;
+  border: 5px dashed rgb(135, 206, 250);
+  padding: 10px;
+  z-index: 6;
+}
+
+.post_header_2 {
+  left: 25px;
+}
+
+.post_entry_1 {
+  height: 50px;
+  width: 450px;
+  top: -35px;
+}
+
+.post_selections_2 {
+  top: -30px;
+  left: 20px;
+}
+
+/* Post: Event */
+
+.post_event {
+  background-color: white;
+  width: 482px;
+  height: 450px;
+  top: 50px;
+  left: 15px;
+  border: 5px dashed rgb(135, 206, 250);
+  padding: 10px;
+  z-index: 6;
+}
+
+.post_header_3 {
+  left: 25px;
+}
+
+.post_photo_2 {
+  background-color: rgb(128, 247, 188);
+  height: 220px;
+  width: 450px;
+  top: -35px;
+}
+
+.post_event_details {
+  height: 50px;
+  width: 450px;
+  top: -20px;
+  left: 5px;
+}
+
+.event_join {
+  background-color: pink;
+  top: -40px;
+  left: 380px;
+}
+
+.post_selections_3 {
+  left: 20px;
+}
+
+/* Post: Text Entry 2 */
+
+.post_text_2 {
+  background-color: white;
+  width: 482px;
+  height: 200px;
+  top: 70px;
+  left: 15px;
+  border: 5px dashed rgb(135, 206, 250);
+  padding: 10px;
+  z-index: 6;
+}
+
+.post_header_4 {
+  left: 25px;
+}
+
+.post_entry_2 {
+  height: 50px;
+  width: 450px;
+  top: -35px;
+}
+
+.post_selections_4 {
+  top: -30px;
+  left: 20px;
 }
 
 /* Footer */
@@ -231,6 +490,8 @@ footer {
   height: 70px;
   border: white 5px dashed;
   background-repeat: no-repeat;
+  top: 680px;
+  left: -40px;
   margin: 0 auto;
-  bottom: -1200px;
+  padding: 10px;
 }
